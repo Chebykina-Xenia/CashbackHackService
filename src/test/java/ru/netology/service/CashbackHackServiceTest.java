@@ -18,6 +18,7 @@ public class CashbackHackServiceTest {
         //проверка ожидаемого и фактического результата
         assertEquals(actual, expected);
     }
+
     //покупка на 500 руб
     @Test
     void calculateCashback500() {
@@ -30,6 +31,7 @@ public class CashbackHackServiceTest {
         //проверка ожидаемого и фактического результата
         assertEquals(actual, expected);
     }
+
     //покупка на 999 руб
     @Test
     void calculateCashback999() {

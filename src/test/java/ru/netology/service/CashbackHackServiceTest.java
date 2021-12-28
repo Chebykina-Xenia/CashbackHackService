@@ -59,7 +59,7 @@ public class CashbackHackServiceTest {
     }
 
     //покупка на 1000 руб
-   /* @Test
+    @Test
     public void calculateCashback1000() {
         // подготавливаем данные:
         int amount = 1000;
@@ -72,5 +72,5 @@ public class CashbackHackServiceTest {
         }
         //проверка ожидаемого и фактического результата
         assertTrue(result);
-    }*/
+    }
 }
